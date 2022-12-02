@@ -1,0 +1,217 @@
+commit cfd463ac4ab35ed0c310befd7a2f2da7ccda21c5
+Author: Jonathan De Sousa <jonathan.de-sousa18@imperial.ac.uk>
+Date:   Wed Mar 24 20:26:39 2021 +0000
+
+    Parallelisation was relaxed to reduce overhead from calling so many functions.
+
+M	SPH.cpp
+
+commit 3117c1ea4c4b565f39cbc42deb6a4fe6f994795b
+Author: Jonathan De Sousa <jonathan.de-sousa18@imperial.ac.uk>
+Date:   Wed Mar 24 18:04:06 2021 +0000
+
+    Parallel code finished albeit with an intractable bug on lines 294-296 of SPH.cpp.
+
+M	SPH.cpp
+M	SPH.h
+M	main.cpp
+
+commit 9ec4a01a769476f2b1f0d33c157655e214f6e22b
+Author: Jonathan De Sousa <jonathan.de-sousa18@imperial.ac.uk>
+Date:   Tue Mar 23 16:30:09 2021 +0000
+
+    Parallelisation draft 1 - Complete.
+
+M	SPH.cpp
+M	SPH.h
+M	main.cpp
+
+commit f2b5f69afde1f45c169e4d593f41221048b559e6
+Author: Jonathan De Sousa <jonathan.de-sousa18@imperial.ac.uk>
+Date:   Tue Mar 23 08:49:55 2021 +0000
+
+    Parallelisation begun - successfully distritubed loc_N.
+
+M	SPH.cpp
+M	SPH.h
+M	main.cpp
+
+commit 43c5ecfe6910c7a05992138a1fbc857bf0633b56
+Author: Jonathan De Sousa <jonathan.de-sousa18@imperial.ac.uk>
+Date:   Sun Mar 21 20:07:09 2021 +0000
+
+    Final optimised version - cleaned up code and only used optimisations which had significant effect on runtime.
+
+M	SPH.cpp
+
+commit a0a74ca078655194a4a5d3f66b176fb8eb60b100
+Author: Jonathan De Sousa <jonathan.de-sousa18@imperial.ac.uk>
+Date:   Sun Mar 21 09:30:59 2021 +0000
+
+    Optimised version 4 - cblas routines implemented.
+
+M	SPH.cpp
+
+commit 90230246629063b474d7d8362e09773875247f33
+Author: Jonathan De Sousa <jonathan.de-sousa18@imperial.ac.uk>
+Date:   Sun Mar 21 00:29:20 2021 +0000
+
+    Optimised version 3 - pow function rid of
+
+M	SPH.cpp
+
+commit 0399647146a0fe2ac2074427746499732d4abde0
+Author: Jonathan De Sousa <jonathan.de-sousa18@imperial.ac.uk>
+Date:   Sat Mar 20 23:58:15 2021 +0000
+
+    Optimised version 2 - lifted loop independent terms
+
+M	SPH.cpp
+
+commit ebdc99fde6f506af68c86042e500d89e2050db18
+Author: Jonathan De Sousa <jonathan.de-sousa18@imperial.ac.uk>
+Date:   Sat Mar 20 21:45:24 2021 +0000
+
+    Optimised version 1 - avoidedance of division, pre-computation
+
+M	SPH.cpp
+M	main.cpp
+
+commit a647bbaaa51a11f794ab5b728282bb103aca8c8b
+Author: Jonathan De Sousa <jonathan.de-sousa18@imperial.ac.uk>
+Date:   Sat Mar 20 16:02:32 2021 +0000
+
+    Final unoptimised serial code
+
+M	main.cpp
+
+commit 4994ea6a079b430e1ad45a962654d601a6bb76b5
+Author: Jonathan De Sousa <jonathan.de-sousa18@imperial.ac.uk>
+Date:   Sat Mar 20 13:59:36 2021 +0000
+
+    Unoptimised serial code - added ernergy calculations and output
+
+M	SPH.cpp
+M	SPH.h
+M	main.cpp
+
+commit d6c5ed16deb113ff65787aa10186ce5975d7df02
+Author: Jonathan De Sousa <jonathan.de-sousa18@imperial.ac.uk>
+Date:   Fri Mar 19 21:58:52 2021 +0000
+
+    Validation cases 1, 2, 3 passed.
+
+M	SPH.cpp
+
+commit 068ca2c65a67e3d606d5441793128f1009426f15
+Author: Jonathan De Sousa <jonathan.de-sousa18@imperial.ac.uk>
+Date:   Fri Mar 19 21:18:08 2021 +0000
+
+    Validation case 2 passed - fixed memset() bug
+
+M	SPH.cpp
+
+commit bc6e1d76012c8ca23b73eb1ed7a0b21ddedd6bca
+Author: Jonathan De Sousa <jonathan.de-sousa18@imperial.ac.uk>
+Date:   Fri Mar 19 19:40:26 2021 +0000
+
+    Checkpoint: changes made next, refer back to this version if unsuccessful.
+
+M	SPH.cpp
+M	SPH.h
+M	main.cpp
+
+commit 8b2ce11be062ddd0205b4dde6f8c8a331bf3af72
+Author: Jonathan De Sousa <jonathan.de-sousa18@imperial.ac.uk>
+Date:   Fri Mar 19 11:18:53 2021 +0000
+
+    Serial code partially complete - debugged BC and time integration.).
+
+M	SPH.cpp
+M	main.cpp
+
+commit 622ea967d39eadc959f33e54707f2cc026768b49
+Author: Jonathan De Sousa <jonathan.de-sousa18@imperial.ac.uk>
+Date:   Thu Mar 18 23:04:10 2021 +0000
+
+    Serial code partially complete - slight update (added get_y() in main.cpp).
+
+M	main.cpp
+
+commit 0d7eafffe7e10094d56afe3a3487e8a21fedf488
+Author: Jonathan De Sousa <jonathan.de-sousa18@imperial.ac.uk>
+Date:   Thu Mar 18 22:32:50 2021 +0000
+
+    Serial code partially complete - boundary conditions set, but un-optimised.
+
+M	SPH.cpp
+M	SPH.h
+M	main.cpp
+
+commit 385a0fbe6ac052acb028cdf8c337e76ae0712583
+Author: Jonathan De Sousa <jonathan.de-sousa18@imperial.ac.uk>
+Date:   Thu Mar 18 20:44:15 2021 +0000
+
+    Serial code partially complete - no optimisations yet, no boundary conditions set yet.
+
+M	SPH.cpp
+M	SPH.h
+M	main.cpp
+
+commit a8becb7b471a4061e447496722e0e1e22024cadc
+Author: Jonathan De Sousa <jonathan.de-sousa18@imperial.ac.uk>
+Date:   Thu Mar 18 17:56:37 2021 +0000
+
+    Corrected bug which deleted pointer twice.
+
+M	SPH.cpp
+M	SPH.h
+M	main.cpp
+
+commit d47b5c85daa0c1833fd5ca7836b4e593d34e24c8
+Author: Jonathan De Sousa <jonathan.de-sousa18@imperial.ac.uk>
+Date:   Thu Mar 18 13:17:21 2021 +0000
+
+    Rough, incomplete version of class (saved because laptop bahaving irratically).
+
+A	SPH.cpp
+A	SPH.h
+
+commit c9c8677e42035b4304bc515e5c452b88bd3f2f90
+Author: Jonathan De Sousa <jonathan.de-sousa18@imperial.ac.uk>
+Date:   Wed Mar 17 22:07:38 2021 +0000
+
+    Final sub-version - all initial conditions verfied
+
+M	main.cpp
+A	myfunction.cpp
+A	myfunction.h
+
+commit 29cafcc8352b4f2068a37e0f237ea73c157d485a
+Author: Jonathan De Sousa <jonathan.de-sousa18@imperial.ac.uk>
+Date:   Wed Mar 17 18:09:44 2021 +0000
+
+    Split code into main.cpp and initial condition-producing function.
+
+A	InitCondition.h
+A	InitialConditionFunction.h
+A	initCondition.cpp
+A	initCondition.h
+A	initlCondition.h
+M	main.cpp
+
+commit 86fded81ff6327f57f3810292048c3b92676c1ac
+Author: Jonathan De Sousa <jonathan.de-sousa18@imperial.ac.uk>
+Date:   Wed Mar 17 16:20:26 2021 +0000
+
+    All initial conditions set
+
+M	main.cpp
+
+commit 972c2446444c3df7b08d06cb9dd226f2e5681f58
+Author: Jonathan De Sousa <jonathan.de-sousa18@imperial.ac.uk>
+Date:   Wed Mar 17 14:47:48 2021 +0000
+
+    Completed boost template for terminal inputs and validation test initial conditions
+
+A	main.cpp
